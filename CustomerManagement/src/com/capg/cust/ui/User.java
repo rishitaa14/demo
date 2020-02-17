@@ -12,6 +12,8 @@ public class User {
 		Scanner scan = new Scanner(System.in);
 		ICustomerService service = new CustomerServiceImp();
 		while (true) {
+			
+			System.out.println("Welcome to CMS");
 			System.out.println("1.add customer");
 			System.out.println("2.update customer");
 			System.out.println("3.select customer");
