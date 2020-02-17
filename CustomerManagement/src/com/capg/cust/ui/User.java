@@ -13,7 +13,7 @@ public class User {
 		ICustomerService service = new CustomerServiceImp();
 		while (true) {
 			
-			System.out.println("Welcome to CMS");
+			System.out.println("Welcome to CMS again");
 			System.out.println("1.add customer");
 			System.out.println("2.update customer");
 			System.out.println("3.select customer");
